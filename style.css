@@ -1,0 +1,158 @@
+
+body {
+     background-size: 25px;
+     background-color: black;
+    background-image: url("http://33.media.tumblr.com/40d3bdf17324470e3c38ffa2b63dab4f/tumblr_nogl61TXcr1uudk2uo1_400.gif")
+
+
+    
+}
+.page {
+    background-color: #320D0D;
+    padding: 20px;
+    margin: 20px;
+    border: solid 10px #420d0d;
+    border-radius: 10px;
+     opacity: 1;
+  transition: opacity 2s linear;
+}
+.nav {
+    
+    height: 70px;
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 4px #500d0d;
+    border-radius: 10px;
+  
+    background-color:#500d0d ;
+   
+}
+
+.nav  a {
+    height: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #11384d;
+    font-family: courier;
+    font-weight: bold;
+  
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background-color: #11384d;
+    color: #320d0d;
+    
+    
+}
+
+
+.nav a:first-child {
+  margin: 2.5em;
+}
+.nav a:nth-child(2) {
+    margin: .7em;
+
+}
+.nav a:nth-child(3) {
+        margin: 6.7em;
+    }
+    
+.jumbotron {
+    Height:550;
+    width: 1060;
+    background-color: #420d0d;
+    margin-left: auto;
+    margin-right: auto;
+        border: solid 4px #500d0d;
+    border-radius: 10px;
+}
+.jumbotron img {
+    height: 350;
+    width: 1000;
+    padding: auto;
+    margin-left: 2em;
+    opacity: 1;
+  transition: opacity 2.5s linear;
+}
+.jumbotron h1 {
+    font-family: cursive;
+    margin: 44px;
+}
+
+.jumbotron h1:hover {
+    color:#11384d ;
+}
+.jumbotron p{
+    text-align: right;
+    margin-right: 1em;
+    font-size: 25px;
+    font-family: courier;
+    font-weight: bold;
+}
+.jumbotron span {
+    opacity: 1;
+  transition: opacity 2s linear;
+  
+}
+.jumbotron p:hover > span {
+  color: #11384d;
+ 
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 1s linear;
+ 
+}
+ 
+  
+.info {
+    background-color: #500d0d;
+    width: 1060;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+    font-size: 22px;
+        border: solid 4px #500d0d;
+    border-radius: 10px;
+}
+.memes {
+    background-color: #420d0d;
+    border: solid 4px #500d0d;
+    text-align: center;
+    width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.memes img{
+    height:200px;
+    width: 170px;
+    opacity: 1;
+  transition: opacity .5s linear;
+    
+}
+.memes img:hover {
+     opacity: 0;
+  transition: visibility 0s .3s, opacity 1s linear;
+}
+.memes th {
+    Font-Family: courier;
+}
+.footer {
+    display:inline;
+    text-align: right;
+    Font-Size: 20px;
+    color: Black;
+    font-family: Courier;
+    font-weight: bold;
+    
+}
+.footer a {
+  text-decoration: none;
+  color: Black;
+}
+.footer p:hover {
+    color: #11384d;
+}
